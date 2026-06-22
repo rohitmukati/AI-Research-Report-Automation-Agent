@@ -1,7 +1,119 @@
-venv
-/venv
-\venv
-.venv
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.pytype/
 
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
 .env
-env
+.env.*
+!.env.example
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Streamlit
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Database
+# ==========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Generated Reports
+# ==========================
+reports/
+generated_reports/
+exports/
+
+# ==========================
+# Uploaded Files
+# ==========================
+uploads/
+temp/
+tmp/
+
+# ==========================
+# LangGraph / AI Cache
+# ==========================
+.cache/
+.cache/**
+.chroma/
+vectorstore/
+faiss_index/
+*.faiss
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.tox/
+.nox/
+
+# ==========================
+# Secrets
+# ==========================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==========================
+# Misc
+# ==========================
+*.swp
+*.swo
